@@ -4,6 +4,7 @@ font-size: larger;
 
 #intro{
     text-align: center;
+    font-weight: bold;
     padding-top: 250px;
 background-image: url(../images/h_img.jpg);
 height: 720px;
@@ -11,31 +12,38 @@ color: aliceblue;
 }
 
 #about{
+    margin: 15px;
     text-align: center;
 text-align: center;
 }
 
 #services{
+    margin: 15px;
     text-align: center;
+    font-weight: bold;
+    color: aliceblue;
     background-image: url(../images/s_image.jpg);
-display: flex;
+    height: 400px;
 
 }
 
 #whatwedo{
+    margin: 15px;
 text-align: center;
 }
 
 
 #contact{
+    margin: 15px;
     text-align: center;
 background-image: url(../images/c_image.jpg);
 }
 
 #socials{
+    margin: 15px;
 text-align: center;
 }
 
 #footer{
-    
+    margin: 15px;
 }
