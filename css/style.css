@@ -1,33 +1,39 @@
 body{
-
+font-size: larger;
 }
 
-#header{
-
+#intro{
+    text-align: center;
+    padding-top: 250px;
+background-image: url(../images/h_img.jpg);
+height: 720px;
+color: aliceblue;
 }
 
 #about{
-
+    text-align: center;
+text-align: center;
 }
 
 #services{
+    text-align: center;
+    background-image: url(../images/s_image.jpg);
+display: flex;
 
 }
 
 #whatwedo{
-
+text-align: center;
 }
 
-#portfolio{
-
-}
 
 #contact{
-
+    text-align: center;
+background-image: url(../images/c_image.jpg);
 }
 
 #socials{
-
+text-align: center;
 }
 
 #footer{
