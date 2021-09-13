@@ -7,7 +7,7 @@ font-size: larger;
     font-size: x-large;
     padding-top: 250px;
 background-image: url(../images/h_img.jpg);
-height: 700px;
+height: 600px;
 color: aliceblue;
 }
 
@@ -15,9 +15,12 @@ color: aliceblue;
     margin: 15px;
     text-align: center;
 text-align: center;
+padding-top: 50px;
+padding-bottom: 50px;
 }
 
 #services{
+    padding-top: 85px;
     margin: 15px;
     text-align: center;
     font-weight: bold;
@@ -27,14 +30,29 @@ text-align: center;
 
 }
 
+#icon>h3{
+    padding-top: 30px;
+}
+
+#icon{
+
+    height: 300px;
+    width: 400px;
+    padding-top: 100px;
+
+}
+
 #whatwedo{
+    text-align: center;
+    display: flex;
     margin: 15px;
-text-align: center;
+    padding-left: 130px;
+
 }
 
 
 #contact{
-    margin: 15px;
+    margin: 50px;
     text-align: center;
 background-image: url(../images/c_image.jpg);
 }
@@ -56,7 +74,11 @@ background-image: url(../images/c_image.jpg);
 
 
 #contact{
+    padding-top: 50px;
+    padding-bottom: 50px;
+    size: 100%;
     color: aliceblue;
+    height: 500px;
 }
 
 
@@ -77,6 +99,7 @@ padding-top: 150px;
 #socials{
     margin: 15px;
 text-align: center;
+padding-top: 50px;
 }
 
 #footer{
@@ -85,4 +108,5 @@ text-align: center;
     font-style: italic;
     font-size: medium;
     font-weight: lighter;
+    padding-top: 30px;
 }
