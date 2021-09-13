@@ -39,6 +39,35 @@ text-align: center;
 background-image: url(../images/c_image.jpg);
 }
 
+#portfolio{
+ 
+ margin-left: 100px;   
+
+}
+
+
+
+#work{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 20px;
+}
+
+
+.contact{
+    font-size: larger;
+    font-weight: bold;
+border: 2px;
+border-color: aliceblue;
+opacity: 0.7;
+padding-top: 20px;
+padding-bottom: 20px;
+
+}
+
+
+
 #socials{
     margin: 15px;
 text-align: center;
