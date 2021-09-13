@@ -4,10 +4,11 @@ font-size: larger;
 
 #intro{
     text-align: center;
+    font-size: x-large;
     font-weight: bold;
     padding-top: 250px;
 background-image: url(../images/h_img.jpg);
-height: 720px;
+height: 700px;
 color: aliceblue;
 }
 
@@ -55,17 +56,23 @@ background-image: url(../images/c_image.jpg);
 }
 
 
+#contact{
+    color: aliceblue;
+}
+
+
 .contact{
     font-size: larger;
     font-weight: bold;
-border: 2px;
-border-color: aliceblue;
-opacity: 0.7;
-padding-top: 20px;
-padding-bottom: 20px;
-
+    opacity: 0.2;
 }
 
+
+#mouseclick{
+
+padding-top: 150px;
+
+}
 
 
 #socials{
@@ -74,5 +81,9 @@ text-align: center;
 }
 
 #footer{
+    text-align: center;
     margin: 15px;
+    font-style: italic;
+    font-size: medium;
+    font-weight: lighter;
 }
