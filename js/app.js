@@ -32,6 +32,24 @@ $(document).ready(function(){
   });
 
 
+
+  
   
 });
+
+
+const contact= (e) =>{
+  e.preventDefault();
+
+  const frm = new FormData(document.querySelector("#contact")) ;
+
+  const userName = frm.get("user");
+
+  const userEmail = frm.get("email")
+
+  const userMessage = frm.get("message")
+
   
+
+
+}
