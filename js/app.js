@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 $("#text1").hide();
   $("#icon1>img").click(function(){
-    $("#icon1>img").slideDown().hide();
+    $("#icon1>img").toggle().hide();
     $("#text1").show();
   });
   $("#text1").click(function(){
@@ -14,7 +14,7 @@ $("#text1").hide();
 
 $("#text2").hide();
   $("#icon2>img").click(function(){
-    $("#icon2>img").slideDown().hide();
+    $("#icon2>img").toggle().hide();
     $("#text2").show();
   });
   $("#text2").click(function(){
@@ -25,7 +25,7 @@ $("#text2").hide();
 
 $("#text3").hide();
   $("#icon3>img").click(function(){
-    $("#icon3>img").slideDown().hide();
+    $("#icon3>img").toggle().hide();
     $("#text3").show();
   });
   $("#text3").click(function(){
