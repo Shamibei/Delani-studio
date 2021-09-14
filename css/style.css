@@ -85,6 +85,10 @@ padding-bottom: 50px;
 background-image: url(../images/c_image.jpg);
 }
 
+#portfolio{
+    text-align: center;
+}
+
 
 #work1:hover{
     opacity: 0.4;
