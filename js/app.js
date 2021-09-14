@@ -40,26 +40,28 @@ $("#text3").hide();
 });
 
 
+
+
+
 const contact= (e) =>{
   e.preventDefault();
 
-  const frm = new FormData(document.querySelector("#contact")) ;
+  const frm = new FormData(document.querySelector("#form")) ;
 
   const userName = frm.get("user");
 
-  const userEmail = frm.get("email")
+  const submit = frm.get("submit");
 
-  const userMessage = frm.get("message")
+  var button = document.querySelector('button');
 
-  const userSubmit = frm.get("submit")
-
-  addEventListener("submit");
-
-  if(userName+userMessage+userEmail+userSubmit){
-    alert(userName+" , We have received your message . Thank you for contacting us.")
+  button.onclick = function changeColor() {
+  if(button.style.background=='blue'){
+      button.style.background='green'
   }else{
-    alert("Please provide all the data required")
-  };
+      button.style.background='blue'
+  }
+  }
+  
 
 
 
