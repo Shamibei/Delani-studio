@@ -4,9 +4,16 @@
 ## Description
 A website with the work that Delani studio has done and that which they can do.
 ## Setup/Installation Requirements
-* A web browser.
+* You need to have a browser for th website to run.
 
-* Good internet connenction.
+* connect your device to the internet.
+
+* search the website link on your browser.
+
+* use the website.
+
+* contct us for assistance through the website contact section.
+
 
 * This website depends entirely  on HTML ,CSS and JavaScript.
 ## Known Bugs
