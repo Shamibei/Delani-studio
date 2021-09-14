@@ -34,12 +34,16 @@ $("#text3").hide();
   });
 
 
+$("#mouseclick").slideUp(800).slideDown(1200);
 
-  
-  
+$("#mouseclick").click(function(){
+  $("#about").show();
 });
 
 
+
+  
+});
 
 
 
@@ -50,19 +54,6 @@ const contact= (e) =>{
 
   const userName = frm.get("user");
 
-  const submit = frm.get("submit");
-
-  var button = document.querySelector('button');
-
-  button.onclick = function changeColor() {
-  if(button.style.background=='blue'){
-      button.style.background='green'
-  }else{
-      button.style.background='blue'
-  }
-  }
-  
-
-
+  const submit = getElementById("submit");
 
 }
