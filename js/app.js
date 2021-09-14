@@ -42,24 +42,20 @@ $("#mouseclick").click(function(){
 
 
 
-  
-});
 
+$('#form').submit(function(event){
+  event.preventDefault();
+var user = $("user");
+  var email = $("#email");
+  var message = $("#message");
+  var submit = $("submit");
 
-
-
-const contact= (e) =>{
-  e.preventDefault();
-
-  const frm = new FormData(document.querySelector("#form")) ;
-
-  const userName = frm.get("user");
-
-  const submit = getElementById("submit").val();
-
-  if (submit) {
-    alert(userName+ " , we have received your message. Thankyou for contacting us")
-    
+  if ($("#submit").val()){
+      alert ("Hello there!"+ " we have received your message. Thank you for reaching out to us.");                
+  }else{
+      alert ("Please submit your message appropriately.");
   }
 
-}
+})
+
+});
