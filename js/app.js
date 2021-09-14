@@ -47,6 +47,7 @@ $("#mouseclick").click(function(){
 
 
 
+
 const contact= (e) =>{
   e.preventDefault();
 
@@ -54,6 +55,11 @@ const contact= (e) =>{
 
   const userName = frm.get("user");
 
-  const submit = getElementById("submit");
+  const submit = getElementById("submit").val();
+
+  if (submit) {
+    alert(userName+ " , we have received your message. Thankyou for contacting us")
+    
+  }
 
 }
